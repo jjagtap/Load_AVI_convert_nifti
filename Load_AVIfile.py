@@ -11,7 +11,7 @@ from glob import glob
 import os
 import nibabel as nib
 
-input_dir='/research/projects/Jaidip/Work_Data/Dr_Amadio_Lab/CTS_Volunteers-3D visualization/CTS Patients/3. Supersonic Raw Data 054/'
+input_dir='Avi_mediafolder/'
 files=glob(input_dir+'*.avi')# also take pathname
 
 oldprefix = '.avi' #_mask.npy
